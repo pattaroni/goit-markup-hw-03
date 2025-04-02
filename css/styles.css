@@ -127,6 +127,9 @@ address {
     gap: 24px;
     margin: 120px 0;
 }
+.principles li {
+    flex-basis: calc((100% - 72px) / 4);
+}
 .header {
     padding-bottom: 8px;
     font-weight: 500;
@@ -134,7 +137,6 @@ address {
     letter-spacing: 0.02em;
     line-height: 1.2;
     color: #2e2f42;
-    text-align: center;
     padding-top: 32px;
 }
 .paragraph {
@@ -142,7 +144,6 @@ address {
     letter-spacing: 0.02em;
     color: #434455;
     font-size: 16px;
-    text-align: center;
     padding-bottom: 32px;
 }
 .team {
