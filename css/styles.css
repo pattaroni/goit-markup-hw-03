@@ -1,0 +1,117 @@
+body {
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: #FFFFFF;
+}
+ul {
+    list-style-type: none;
+}
+.logo {
+    font-family: "Raleway", sans-serif;
+    color: #2e2f42;
+    font-weight: 700;
+    font-size: 18px;
+    text-transform: uppercase;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    color: #4d5ae5;
+}
+.logo1 {
+    color: #2e2f42;
+}
+.nav {
+    color: #2e2f42;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    font-weight: 500;
+    list-style-type: none;
+    text-decoration: none;
+    font-style: normal;
+}
+.nav:hover, .nav:focus {
+    color: #404bbf;
+}
+address {
+    font-style: normal;
+}
+.contact {
+    color: #434455;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    list-style-type: none;
+    text-decoration: none;
+}
+.contact:hover, .contact:focus {
+    color: #404bbf;
+}
+.section-order {
+    background-color: #2e2f42;
+}
+.section-title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #FFFFFF;
+}
+.button {
+    font-family: "Roboto", sans-serif;
+    background-color: #4d5ae5;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.button:hover, .button:focus {
+    background-color: #404bbf;
+}
+.header {
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 0.02em;
+    line-height: 1.2;
+    color: #2e2f42;
+}
+/* .h3-title {
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 0.02em;
+    line-height: 1.2;
+    color: #2e2f42;
+} */
+.paragraph {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    font-size: 16px;
+}
+.team {
+    background-color: #FFFFFF;
+}
+.section-team {
+    background-color: #f4f4fd;
+}
+.title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
+    color: #2e2f42;
+}
+.footer {
+    background-color: #2e2f42;
+}
+.logo-footer {
+    color: #f4f4fd;
+}
+.text-footer {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #f4f4fd;
+}
