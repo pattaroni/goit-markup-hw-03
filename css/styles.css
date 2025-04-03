@@ -31,6 +31,7 @@ body {
 /* #region Header */
 .page-header {
     border-bottom: 1px solid #e7e9fc;
+    width: 1158px;
 }
 .page-header .container {
     display: flex;
