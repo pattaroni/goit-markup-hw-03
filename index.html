@@ -7,7 +7,10 @@
     <title>Homework #3</title>
     <link
       rel="stylesheet"
-      href="node_modules/modern-normalize/modern-normalize.css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+      integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="./css/styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -18,20 +21,21 @@
     />
   </head>
   <body>
+    <!-- #region Header -->
     <header class="page-header">
       <div class="container">
-        <nav>
+        <nav class="nav">
           <a href="./index.html" class="logo"
             >Web<span class="logo1">Studio</span></a
           >
-          <ul>
-            <li><a href="./index.html" class="nav">Studio</a></li>
-            <li><a href="" class="nav">Portfolio</a></li>
-            <li><a href="" class="nav">Contacts</a></li>
+          <ul class="menu">
+            <li><a href="./index.html" class="link">Studio</a></li>
+            <li><a href="" class="link">Portfolio</a></li>
+            <li><a href="" class="link">Contacts</a></li>
           </ul>
         </nav>
         <address class="address">
-          <ul>
+          <ul class="address-list">
             <li>
               <a
                 href="mailto:info@devstudio.com"
@@ -49,6 +53,8 @@
         </address>
       </div>
     </header>
+    <!-- #endregion Header -->
+    <!-- #region Section Order -->
     <main>
       <section class="section-order">
         <div class="container">
@@ -59,32 +65,34 @@
           <button type="button" class="button">Order Service</button>
         </div>
       </section>
-      <section>
+      <!-- #endregion Section Order -->
+      <!-- #region Principles -->
+      <section class="principles">
         <div class="container">
-          <h2 hidden>Principles</h2>
-          <ul class="principles">
-            <li>
+          <h2 class="visually-hidden">Principles</h2>
+          <ul class="principles-list">
+            <li class="element">
               <h3 class="header">Strategy</h3>
               <p class="paragraph">
                 Our goal is to identify the business problem to walk away with
                 the perfect and creative solution.
               </p>
             </li>
-            <li>
+            <li class="element">
               <h3 class="header">Punctuality</h3>
               <p class="paragraph">
                 Bring the key message to the brand's audience for the best price
                 within the shortest possible time.
               </p>
             </li>
-            <li>
+            <li class="element">
               <h3 class="header">Diligence</h3>
               <p class="paragraph">
                 Research and confirm brands with the strongest digital growth
                 opportunities and minimize risk.
               </p>
             </li>
-            <li>
+            <li class="element">
               <h3 class="header">Technologies</h3>
               <p class="paragraph">
                 Design practice focused on digital experiences. We bring forth a
@@ -94,6 +102,8 @@
           </ul>
         </div>
       </section>
+      <!-- #endregion Principles -->
+      <!-- #region Our Team -->
       <section class="section-team">
         <div class="container">
           <h2 class="title">Our Team</h2>
@@ -105,8 +115,10 @@
                 width="264"
                 height="260"
               />
-              <h3 class="header">Mark Guerrero</h3>
-              <p class="paragraph">Product Designer</p>
+              <div class="name">
+                <h3 class="header-name">Mark Guerrero</h3>
+                <p class="paragraph-name">Product Designer</p>
+              </div>
             </li>
             <li class="team">
               <img
@@ -115,8 +127,10 @@
                 width="264"
                 height="260"
               />
-              <h3 class="header">Tom Ford</h3>
-              <p class="paragraph">Frontend Developer</p>
+              <div class="name">
+                <h3 class="header-name">Tom Ford</h3>
+                <p class="paragraph-name">Frontend Developer</p>
+              </div>
             </li>
             <li class="team">
               <img
@@ -125,8 +139,10 @@
                 width="264"
                 height="260"
               />
-              <h3 class="header">Camila Garcia</h3>
-              <p class="paragraph">Marketing</p>
+              <div class="name">
+                <h3 class="header-name">Camila Garcia</h3>
+                <p class="paragraph-name">Marketing</p>
+              </div>
             </li>
             <li class="team">
               <img
@@ -135,80 +151,98 @@
                 width="264"
                 height="260"
               />
-              <h3 class="header">Daniel Wilson</h3>
-              <p class="paragraph">UI Designer</p>
+              <div class="name">
+                <h3 class="header-name">Daniel Wilson</h3>
+                <p class="paragraph-name">UI Designer</p>
+              </div>
             </li>
           </ul>
         </div>
       </section>
-      <section>
+      <!-- #endregion Our Team -->
+      <!-- #region Our Portfolio -->
+      <section class="portfolio">
         <div class="container">
-          <h2 class="title">Our Portfolio</h2>
+          <h2 class="title-portfolio">Our Portfolio</h2>
           <ul class="portfolio-list">
-            <li>
+            <li class="portfolio-element">
               <img
                 src="./images/banking-app.jpg"
                 alt="Banking App"
                 width="360"
                 height="300"
               />
-              <h3 class="header">Banking App</h3>
-              <p class="paragraph">App</p>
+              <div class="app">
+                <h3 class="header-app">Banking App</h3>
+                <p class="paragraph-app">App</p>
+              </div>
             </li>
-            <li>
+            <li class="portfolio-element">
               <img
                 src="./images/cashless-payment.jpg"
                 alt="Cashless Payment"
                 width="360"
                 height="300"
               />
-              <h3 class="header">Cashless Payment</h3>
-              <p class="paragraph">Marketing</p>
+              <div class="app">
+                <h3 class="header-app">Cashless Payment</h3>
+                <p class="paragraph-app">Marketing</p>
+              </div>
             </li>
-            <li>
+            <li class="portfolio-element">
               <img
                 src="./images/meditation-app.jpg"
                 alt="Laptop and Phone"
                 width="360"
                 height="300"
               />
-              <h3 class="header">Meditation App</h3>
-              <p class="paragraph">App</p>
+              <div class="app">
+                <h3 class="header-app">Meditation App</h3>
+                <p class="paragraph-app">App</p>
+              </div>
             </li>
-            <li>
+            <li class="portfolio-element">
               <img
                 src="./images/taxi-service.jpg"
                 alt="Car"
                 width="360"
                 height="300"
               />
-              <h3 class="header">Taxi Service</h3>
-              <p class="paragraph">Marketing</p>
+              <div class="app">
+                <h3 class="header-app">Taxi Service</h3>
+                <p class="paragraph-app">Marketing</p>
+              </div>
             </li>
-            <li>
+            <li class="portfolio-element">
               <img
                 src="./images/screen-illustrations.jpg"
                 alt="Phone Wallpaper"
                 width="360"
                 height="300"
               />
-              <h3 class="header">Screen Illustrations</h3>
-              <p class="paragraph">Design</p>
+              <div class="app">
+                <h3 class="header-app">Screen Illustrations</h3>
+                <p class="paragraph-app">Design</p>
+              </div>
             </li>
-            <li>
+            <li class="portfolio-element">
               <img
                 src="./images/online-courses.jpg"
                 alt="Women with phone"
                 width="360"
                 height="300"
               />
-              <h3 class="header">Online Courses</h3>
-              <p class="paragraph">Marketing</p>
+              <div class="app">
+                <h3 class="header-app">Online Courses</h3>
+                <p class="paragraph-app">Marketing</p>
+              </div>
             </li>
           </ul>
         </div>
       </section>
     </main>
+    <!-- #endregion Our Portfolio -->
+    <!-- #region Footer -->
     <footer class="footer">
       <div class="container">
         <a href="./index.html" class="logo"
@@ -220,5 +254,6 @@
         </p>
       </div>
     </footer>
+    <!-- #endregion Footer -->
   </body>
 </html>
