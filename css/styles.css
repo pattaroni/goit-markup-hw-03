@@ -24,14 +24,13 @@ body {
 }
 .container {
     margin: 0 auto;
-    width: 1128px;
+    width: 1158px;
 }
 /* #endregion Basic */
 
 /* #region Header */
 .page-header {
     border-bottom: 1px solid #e7e9fc;
-    width: 1158px;
 }
 .page-header .container {
     display: flex;
